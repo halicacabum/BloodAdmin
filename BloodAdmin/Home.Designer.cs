@@ -1,6 +1,6 @@
 ﻿namespace BloodAdmin
 {
-    partial class Form1
+    partial class Home
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "Form1";
+            this.Text = "血液分離暨庫存管理系統-首頁";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
